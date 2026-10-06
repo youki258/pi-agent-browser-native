@@ -24,9 +24,9 @@ concurrency:
 
 jobs:
   resolve:
-    uses: fitchmultz/.github/.github/workflows/resolve-hosts.yml@3b7a5f72d9c2d67d6fb53ef7bd308b005c385af3 # main
+    uses: fitchmultz/.github/.github/workflows/resolve-hosts.yml@d2ce2565784ce5b8a34b31194b144618122c5e7e # main
     with:
-      automation-ref: 3b7a5f72d9c2d67d6fb53ef7bd308b005c385af3 # main
+      automation-ref: d2ce2565784ce5b8a34b31194b144618122c5e7e # main
       official-version: ${{ inputs.official-version }}
       fork-ref: ${{ inputs.fork-ref }}
 
